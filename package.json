@@ -1,4 +1,23 @@
 {
+  "name": "california-back",
+  "version": "1.0.0",
+  "description": "This is a backend server created using NodeJs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KhasanovIbrohim/california-back.git"
+  },
+  "author": "Ibrohim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KhasanovIbrohim/california-back/issues"
+  },
+  "homepage": "https://github.com/KhasanovIbrohim/california-back#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.2",
